@@ -1,0 +1,51 @@
+.home-sec {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://creativemela.com/themeforest_html/Fresh_Vial/demo/freeshvila/images/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home-sec div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.home-sec div h2 {
+    width: 50%;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #2e4db9;
+}
+
+.home-sec div p {
+    width: 40%;
+}
+
+.home-sec div button{
+    width: 200px;
+    height: 70px;
+    border: 4px solid #bfc9ea;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    background-color: #2e4db9;
+    color: #fff;
+    padding: 0 40px;
+    transition: all 0.4s linear;
+}
+
+.home-sec div button:hover{
+    background-color: transparent;
+    color: #000;
+}
